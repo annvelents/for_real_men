@@ -1,0 +1,207 @@
+h1
+  | Welcome!
+.command-number-box data-ng-if="command == 0"
+  .command-number data-ng-click="chooseCommandNumber(1)"
+    | 1
+  .command-number data-ng-click="chooseCommandNumber(2)"
+    |2
+  .command-number data-ng-click="chooseCommandNumber(3)"
+    |3
+  .command-number data-ng-click="chooseCommandNumber(4)"
+    |4
+.task-box 
+  .task-form data-ng-if="command == 1"
+    | {{command}}
+    .task
+      .form-group data-ng-if="task ==0"
+        label
+          | Найдите первого человека, которого вы встречаете на работе. Он выдаст вам код.
+        input data-ng-model="answers.0"
+      .form-group data-ng-if="task ==1"
+        label
+          | Сколько лет нашей компании?
+        input data-ng-model="answers.1"
+    .task
+      .form-group data-ng-if="task ==2"
+        label
+          | Следующее место вы можете вычислить с помощью нашего шифра: "(1000-1) + n от лифта"
+        input data-ng-model="answers.2"
+      .form-group data-ng-if="task ==3"
+        label
+          | Вычислите площадь круга с радиусом равным 5
+        input data-ng-model="answers.3"
+    .task
+      .form-group data-ng-if="task ==4"
+        label
+          | Идите к тому, что жужжит и требует внимания
+        input data-ng-model="answers.4"
+      .form-group data-ng-if="task ==5"
+        label
+          | Обычный человек на пальцах может досчитать до десяти. До скольки сможет на пальцах сосчитать программист?
+        input data-ng-model="answers.5"
+    .task
+      .form-group data-ng-if="task ==6"
+        label
+          | "With love from Brest". Найдите там подсказку, которая поможет найти код.
+        input data-ng-model="answers.6"
+      .form-group data-ng-if="task ==7"
+        label
+          | Сколько материков в своем названии имеют слова, начинающиеся на букву А?
+        input data-ng-model="answers.7"
+    .task
+      .form-group data-ng-if="task ==8"
+        label
+          | Вечер, который так и не дождался своего часа и спрятался за оранжевыми овощами...
+        input data-ng-model="answers.8"
+      .form-group data-ng-if="task ==9"
+        label
+          | На поверхности пруда плавает одна кувшинка, которая постоянно делится и разрастается. Таким образом, каждый день площадь, которую занимают кувшинки, увеличивается в два раза. Через 30 дней покрытой оказывается вся поверхность пруда. За сколько времени покроется кувшинками вся поверхность пруда, если изначально на поверхности будут плавать две кувшинки?
+        input data-ng-model="answers.9"
+
+  .task-form data-ng-if="command == 2"
+    | {{command}}
+    .task
+      .form-group data-ng-if="task ==0"
+        label
+          | Место, с которым у вас ассоциируется "With love from Brest". Найдите там подсказку, которая поможет найти код.
+        input data-ng-model="answers.0"
+      .form-group data-ng-if="task ==1"
+        label
+          | Самый молодой сотрудник компании? (Имя)
+        input data-ng-model="answers.1"
+    .task
+      .form-group data-ng-if="task ==2"
+        label
+          | ТТТТТТТТТТТТТТТ уголок комфорта
+        input data-ng-model="answers.2"
+      .form-group data-ng-if="task ==3"
+        label
+          | Вычислите площадь поверхности куба с длиной ребра = 5
+        input data-ng-model="answers.3"
+    .task
+      .form-group data-ng-if="task ==4"
+        label
+          | Найдите первого человека, которого вы встречаете на работе. 
+        input data-ng-model="answers.4"
+      .form-group data-ng-if="task ==5"
+        label
+          | Сколько черных полей-квадратиков на шахматной доске?
+        input data-ng-model="answers.5"
+    .task
+      .form-group data-ng-if="task ==6"
+        label
+          | Следующее место вы можете вычислить с помощью нашего шифра: "(1000-1) + n от лифта"
+        input data-ng-model="answers.6"
+      .form-group data-ng-if="task ==7"
+        label
+          | Обычный человек на пальцах может досчитать до десяти. До скольки сможет на пальцах сосчитать программист?
+        input data-ng-model="answers.7"
+    .task
+      .form-group data-ng-if="task ==8"
+        label
+          |  Идите к тому, что жужжит и требует внимания
+        input data-ng-model="answers.8"
+      .form-group data-ng-if="task ==9"
+        label
+          | На столе лежат девять монет. Одна из них — фальшивая и ее вес меньше, чем у настоящей. Какое минимальное количество взвешиваний вам потребуется, чтобы найти фальшивую монету, используя весы с чашами?
+        input data-ng-model="answers.9"
+
+  .task-form data-ng-if="command == 3"
+    | {{command}}
+    .task
+      .form-group data-ng-if="task ==0"
+        label
+          | Первое место вы можете вычислить с помощью нашего шифра: "(1000-1) + n от лифта". Там вы найдете код.
+        input data-ng-model="answers.0"
+      .form-group data-ng-if="task ==1"
+        label
+          | Сколько человек, работающих в нашей компании, сейчас учатся на четвертом курсе?
+        input data-ng-model="answers.1"
+    .task
+      .form-group data-ng-if="task ==2"
+        label
+          | Место, где нужно повторно пушнуть баттон, иначе вы не приедете туда, куда собирались.
+        input data-ng-model="answers.2"
+      .form-group data-ng-if="task ==3"
+        label
+          | Вычислите площадь равностороннего треугольника со стороной = 5
+        input data-ng-model="answers.3"
+    .task
+      .form-group data-ng-if="task ==4"
+        label
+          | "With love from Brest". Найдите там подсказку, которая поможет найти код.
+        input data-ng-model="answers.4"
+      .form-group data-ng-if="task ==5"
+        label
+          | Сколько раз цифра 3 используется в записи двухзначных чисел?
+        input data-ng-model="answers.5"
+    .task
+      .form-group data-ng-if="task ==6"
+        label
+          | ТТТТТТТТТТТТТТТ уголок комфорта
+        input data-ng-model="answers.6"
+      .form-group data-ng-if="task ==7"
+        label
+          | Обычный человек на пальцах может досчитать до десяти. До скольки сможет на пальцах сосчитать программист?
+        input data-ng-model="answers.7"
+    .task
+      .form-group data-ng-if="task ==8"
+        label
+          | Следующее место вы можете вычислить с помощью нашего шифра: "(1000-1) + n от лифта"
+        input data-ng-model="answers.8"
+      .form-group data-ng-if="task ==9"
+        label
+          | Вы решили приготовить себе котлетки. Факт: на сковородку одновременно помещается 2. Зная, что до готовности одну котлетку нужно обжарить с каждой стороны по одной минуте, какое минимальное время вам потребуется для приготовления трех котлет?
+        input data-ng-model="answers.9"
+
+  .task-form data-ng-if="command == 4"
+    | {{command}}
+    .task
+      .form-group data-ng-if="task ==0"
+        label
+          | Идите к тому, что жужжит и требует внимания. Там вы найдете код.
+        input data-ng-model="answers.0"
+      .form-group data-ng-if="task ==1"
+        label
+          | Сколько у нашей компании было корпоративов?
+        input data-ng-model="answers.1"
+    .task
+      .form-group data-ng-if="task ==2"
+        label
+          | Найдите летающие тарелки на этаже бесконечности.
+        input data-ng-model="answers.2"
+      .form-group data-ng-if="task ==3"
+        label
+          | Вычислите площадь равнобедренной трапеции с основаниями 4, 10 и высотой 3
+        input data-ng-model="answers.3"
+    .task
+      .form-group data-ng-if="task ==4"
+        label
+          | Вечер, который так и не дождался своего часа и спрятался за оранжевыми овощами...
+        input data-ng-model="answers.4"
+      .form-group data-ng-if="task ==5"
+        label
+          | Обычный человек на пальцах может досчитать до десяти. До скольки сможет на пальцах сосчитать программист?
+        input data-ng-model="answers.5"
+    .task
+      .form-group data-ng-if="task ==6"
+        label
+          | Место, где нужно повторно пушнуть баттон, иначе вы не приедете туда, куда собирались.
+        input data-ng-model="answers.6"
+      .form-group data-ng-if="task ==7"
+        label
+          | Сколько вы знаете органов чувств человека?
+        input data-ng-model="answers.7"
+    .task
+      .form-group data-ng-if="task ==8"
+        label
+          | "With love from Brest". Найдите там подсказку, которая поможет найти код.
+        input data-ng-model="answers.8"
+      .form-group data-ng-if="task ==9"
+        label
+          | На поверхности пруда плавает одна кувшинка, которая постоянно делится и разрастается. Таким образом, каждый день площадь, которую занимают кувшинки, увеличивается в два раза. Через 30 дней покрытой оказывается вся поверхность пруда. За сколько времени покроется кувшинками вся поверхность пруда, если изначально на поверхности будут плавать две кувшинки?
+        input data-ng-model="answers.9"
+
+  .task data-ng-if="task == 10"
+    label
+      | ВЫ ВОСХИТИТЕЛЬНЫ! ПОЗДРАВЛЯЕМ! ОТПРАВЛЯЙТЕСЬ В МИТИНГ-РУМ ЗА ПОДАРКАМИ! =)
