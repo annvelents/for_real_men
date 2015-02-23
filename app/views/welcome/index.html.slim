@@ -1,6 +1,6 @@
 .command-number-box data-ng-if="command == 0"
   h1
-    | Welcome! Choose number of command:
+    | Приветы! Выбери номер своей команды:
   .command-number data-ng-click="chooseCommandNumber(1)"
     | 1
   .command-number data-ng-click="chooseCommandNumber(2)"
@@ -202,12 +202,12 @@
     label
       | ВЫ ВОСХИТИТЕЛЬНЫ! ПОЗДРАВЛЯЕМ! Напишите в скайпе кодовую фразу
     label data-ng-if="command ==1"
-      | Где ключи от танка?
+      | "Где ключи от танка?"
     label data-ng-if="command ==2"
-      | Мы старались как могли...
+      | "Мы старались как могли..."
     label data-ng-if="command ==3"
-      | Радужные единороги наступают!
+      | "Радужные единороги наступают!"
     label data-ng-if="command ==4"
-      | Полковнику никто не пишет :(
+      | "Полковнику никто не пишет :("
     .perfect-img
       = image_tag "sudar.jpg"

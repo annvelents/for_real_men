@@ -47,12 +47,20 @@ h1 {
   width: 600px;
 }
 
-.task-box .task-form .task .form-group label {
+.task-box .task-form .task label {
   display: block;
   width: 100%;
   margin: 10px 0;
   font-size: 24px;
   color: #777;
+}
+
+.task label {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 24px;
+  color: black;
 }
 
 .task-box .task-form .task .form-group input {
