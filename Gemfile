@@ -29,6 +29,7 @@ gem 'angularjs-rails'
 gem 'slim'
 gem 'pry'
 gem 'simple_form'
+gem 'pg'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
