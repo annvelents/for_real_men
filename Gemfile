@@ -1,6 +1,4 @@
 source 'https://rubygems.org'
-source 'https://rails-assets.org'
-
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
@@ -50,3 +48,4 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'rails_12factor', group: :production
