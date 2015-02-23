@@ -1,7 +1,7 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  user: anna
+  user: charty
   pasword: 123
   pool: 25
 development:

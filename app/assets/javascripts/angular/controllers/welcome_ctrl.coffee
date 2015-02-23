@@ -110,16 +110,16 @@ app.controller "WelcomeCtrl", ($scope) ->
   $scope.$watch 'answers.6', (val)->
     switch $scope.command
       when 1
-        if val == "asd" || val == "ASD"
+        if val == "asd" || val == "ASD" || val == "Asd"
           $scope.task = 7
       when 2
-        if val == "FRS" || val == "frs"
+        if val == "FRS" || val == "frs" || val == "Frs"
           $scope.task = 7
       when 3
-        if val == "WQX" || val == "wqx"
+        if val == "WQX" || val == "wqx" || val == "Wqx"
           $scope.task = 7
       when 4
-        if val == "TGM" || val == "tgm"
+        if val == "TGM" || val == "tgm" || val == "Tgm"
           $scope.task = 7
 
   $scope.$watch 'answers.7', (val)->
@@ -140,16 +140,16 @@ app.controller "WelcomeCtrl", ($scope) ->
   $scope.$watch 'answers.8', (val)->
     switch $scope.command
       when 1
-        if val == "z3w6" || val == "Z3W6"
+        if val == "z3w6" || val == "Z3W6" || val == "Z3w6"
           $scope.task = 9
       when 2
-        if val == "a1v8" || val == "A1W8"
+        if val == "a1v8" || val == "A1W8" || val == "A1w8"
           $scope.task = 9
       when 3
-        if val == "f76t" || val == "F76T"
+        if val == "f76t" || val == "F76T" || val == "F76t"
           $scope.task = 9
       when 4
-        if val == "AL79" || val == "al79"
+        if val == "AL79" || val == "al79" || val == "Al79"
           $scope.task = 9
 
   $scope.$watch 'answers.9', (val)->

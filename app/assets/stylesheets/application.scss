@@ -1,0 +1,68 @@
+html, body {
+  height: 100%
+}
+
+h1 {
+  text-align: center;
+}
+
+.command-number-box {
+  width: 600px;
+  margin: auto;
+}
+
+.command-number-box  .command-number {
+  display: inline-block;
+  width: 290px;
+  height: 120px;
+  background-color: #f0f0f0;
+  color: #777;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.command-number-box  .command-number:hover {
+  background-color: #A5E8CD;
+  color: white;
+}
+
+.command-number-box  .command-number:active {
+  background-color: #A5E8CD;
+  color: white;
+}
+
+.task-box {
+  width: 600px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.task-box .task-form .task .form-group{
+  border: 1px solid #e0e0e0;
+  padding: 30px;
+  width: 600px;
+}
+
+.task-box .task-form .task .form-group label {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 24px;
+  color: #777;
+}
+
+.task-box .task-form .task .form-group input {
+  height: 50px;
+  width: 570px;
+  font-size: 28px;
+  margin: 30px 0px
+}
+
+.task .perfect-img {
+  margin: 30px 0;
+  width: 100%;
+}
